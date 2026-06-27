@@ -1,0 +1,302 @@
+const explorersInfo = {
+    "Эрик Рыжий": {
+        country: "Норвегия",
+        flag: "🇳🇴",
+        years: "ок. 950–1003",
+        image: "images/explorers/erik-the-red.jpg"
+    },
+
+    "Лейф Эрикссон": {
+        country: "Норвегия",
+        flag: "🇳🇴",
+        years: "ок. 970–1020",
+        image: "images/explorers/leif-erikson.jpg"
+    },
+
+    "Марко Поло": {
+        country: "Италия",
+        flag: "🇮🇹",
+        years: "1254–1324",
+        image: "images/explorers/marco-polo.jpg"
+    },
+
+    "Генрих Мореплаватель": {
+        country: "Португалия",
+        flag: "🇵🇹",
+        years: "1394–1460",
+        image: "images/explorers/henry-the-navigator.jpg"
+    },
+
+    "Бартоломеу Диаш": {
+        country: "Португалия",
+        flag: "🇵🇹",
+        years: "ок. 1450–1500",
+        image: "images/explorers/bartolomeu-dias.jpg"
+    },
+
+    "Христофор Колумб": {
+        country: "Испания",
+        flag: "🇪🇸",
+        years: "1451–1506",
+        image: "images/explorers/christopher-columbus.jpg"
+    },
+
+    "Джон Кабот": {
+        country: "Англия",
+        flag: "🏴",
+        years: "ок. 1450–1499",
+        image: "images/explorers/john-cabot.jpg"
+    },
+
+    "Васко да Гама": {
+        country: "Португалия",
+        flag: "🇵🇹",
+        years: "ок. 1460–1524",
+        image: "images/explorers/vasco-da-gama.jpg"
+    },
+
+    "Америго Веспуччи": {
+        country: "Италия",
+        flag: "🇮🇹",
+        years: "1454–1512",
+        image: "images/explorers/amerigo-vespucci.jpg"
+    },
+
+    "Педру Алвариш Кабрал": {
+        country: "Португалия",
+        flag: "🇵🇹",
+        years: "ок. 1467–1520",
+        image: "images/explorers/pedro-cabral.jpg"
+    },
+
+    "Васко Нуньес де Бальбоа": {
+        country: "Испания",
+        flag: "🇪🇸",
+        years: "1475–1519",
+        image: "images/explorers/vasco-nunez-de-balboa.jpg"
+    },
+
+    "Фернан Магеллан": {
+        country: "Португалия / Испания",
+        flag: "🇵🇹 🇪🇸",
+        years: "1480–1521",
+        image: "images/explorers/ferdinand-magellan.jpg"
+    },
+
+    "Джованни да Верраццано": {
+        country: "Италия / Франция",
+        flag: "🇮🇹 🇫🇷",
+        years: "1485–1528",
+        image: "images/explorers/giovanni-verrazzano.jpg"
+    },
+
+    "Жак Картье": {
+        country: "Франция",
+        flag: "🇫🇷",
+        years: "1491–1557",
+        image: "images/explorers/jacques-cartier.jpg"
+    },
+
+    "Хуан Родригес Кабрильо": {
+        country: "Испания",
+        flag: "🇪🇸",
+        years: "ок. 1499–1543",
+        image: "images/explorers/juan-rodriguez-cabrillo.jpg"
+    },
+
+    "Фрэнсис Дрейк": {
+        country: "Англия",
+        flag: "🏴",
+        years: "ок. 1540–1596",
+        image: "images/explorers/francis-drake.jpg"
+    },
+
+    "Виллем Баренц": {
+        country: "Нидерланды",
+        flag: "🇳🇱",
+        years: "ок. 1550–1597",
+        image: "images/explorers/willem-barentsz.jpg"
+    },
+
+    "Виллем Янсзон": {
+        country: "Нидерланды",
+        flag: "🇳🇱",
+        years: "ок. 1570–1630",
+        image: "images/explorers/willem-janszoon.jpg"
+    },
+
+    "Генри Гудзон": {
+        country: "Англия",
+        flag: "🏴",
+        years: "ок. 1565–1611",
+        image: "images/explorers/henry-hudson.jpg"
+    },
+
+    "Виллем Схаутен": {
+        country: "Нидерланды",
+        flag: "🇳🇱",
+        years: "ок. 1567–1625",
+        image: "images/explorers/willem-schouten.jpg"
+    },
+
+    "Абел Тасман": {
+        country: "Нидерланды",
+        flag: "🇳🇱",
+        years: "1603–1659",
+        image: "images/explorers/abel-tasman.jpg"
+    },
+
+    "Семён Дежнёв": {
+        country: "Россия",
+        flag: "🇷🇺",
+        years: "ок. 1605–1673",
+        image: "images/explorers/semyon-dezhnev.jpg"
+    },
+
+    "Витус Беринг": {
+        country: "Дания / Россия",
+        flag: "🇩🇰 🇷🇺",
+        years: "1681–1741",
+        image: "images/explorers/vitus-bering.jpg"
+    },
+
+    "Алексей Чириков": {
+        country: "Россия",
+        flag: "🇷🇺",
+        years: "1703–1748",
+        image: "images/explorers/alexey-chirikov.jpg"
+    },
+
+    "Джеймс Кук": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1728–1779",
+        image: "images/explorers/james-cook.jpg"
+    },
+
+    "Жан-Франсуа Лаперуз": {
+        country: "Франция",
+        flag: "🇫🇷",
+        years: "1741–1788",
+        image: "images/explorers/laperouse.jpg"
+    },
+
+    "Александр Гумбольдт": {
+        country: "Германия",
+        flag: "🇩🇪",
+        years: "1769–1859",
+        image: "images/explorers/alexander-humboldt.jpg"
+    },
+
+    "Иван Крузенштерн": {
+        country: "Россия",
+        flag: "🇷🇺",
+        years: "1770–1846",
+        image: "images/explorers/ivan-krusenstern.jpg"
+    },
+
+    "Мериуэзер Льюис и Уильям Кларк": {
+        country: "США",
+        flag: "🇺🇸",
+        years: "1774–1809 / 1770–1838",
+        image: "images/explorers/lewis-and-clark.jpg"
+    },
+
+    "Джон Франклин": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1786–1847",
+        image: "images/explorers/john-franklin.jpg"
+    },
+
+    "Фаддей Беллинсгаузен и Михаил Лазарев": {
+        country: "Россия",
+        flag: "🇷🇺",
+        years: "1778–1852 / 1788–1851",
+        image: "images/explorers/bellingshausen-lazarev.jpg"
+    },
+
+    "Чарльз Стерт": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1795–1869",
+        image: "images/explorers/charles-sturt.jpg"
+    },
+
+    "Джеймс Кларк Росс": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1800–1862",
+        image: "images/explorers/james-clark-ross.jpg"
+    },
+
+    "Давид Ливингстон": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1813–1873",
+        image: "images/explorers/david-livingstone.jpg"
+    },
+
+    "Джон Хеннинг Спик": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1827–1864",
+        image: "images/explorers/john-hanning-speke.jpg"
+    },
+
+    "Роберт Бёрк и Уильям Уиллс": {
+        country: "Австралия / Великобритания",
+        flag: "🇦🇺 🇬🇧",
+        years: "1821–1861 / 1834–1861",
+        image: "images/explorers/burke-and-wills.jpg"
+    },
+
+    "Генри Стэнли": {
+        country: "Великобритания / США",
+        flag: "🇬🇧 🇺🇸",
+        years: "1841–1904",
+        image: "images/explorers/henry-stanley.jpg"
+    },
+
+    "Адольф Эрик Норденшёльд": {
+        country: "Швеция",
+        flag: "🇸🇪",
+        years: "1832–1901",
+        image: "images/explorers/adolf-erik-nordenskiold.jpg"
+    },
+
+    "Фритьоф Нансен": {
+        country: "Норвегия",
+        flag: "🇳🇴",
+        years: "1861–1930",
+        image: "images/explorers/fridtjof-nansen.jpg"
+    },
+
+    "Адриен де Жерлаш": {
+        country: "Бельгия",
+        flag: "🇧🇪",
+        years: "1866–1934",
+        image: "images/explorers/adrien-de-gerlache.jpg"
+    },
+
+    "Роберт Пири": {
+        country: "США",
+        flag: "🇺🇸",
+        years: "1856–1920",
+        image: "images/explorers/robert-peary.jpg"
+    },
+
+    "Руаль Амундсен": {
+        country: "Норвегия",
+        flag: "🇳🇴",
+        years: "1872–1928",
+        image: "images/explorers/roald-amundsen.jpg"
+    },
+
+    "Роберт Скотт": {
+        country: "Великобритания",
+        flag: "🇬🇧",
+        years: "1868–1912",
+        image: "images/explorers/robert-scott.jpg"
+    }
+};

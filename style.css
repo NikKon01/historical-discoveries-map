@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.app-header {
+    background: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.app-header h1 {
+    margin-bottom: 5px;
+}
+
+.app-header p {
+    font-size: 14px;
+}
+
+.header-nav {
+    margin-top: 10px;
+}
+
+.header-nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 7px 14px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.header-nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.app-layout {
+    display: flex;
+    height: calc(100vh - 150px);
+}
+
+.sidebar {
+    width: 260px;
+    background: white;
+    padding: 15px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h2,
+.info-panel h2 {
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
+
+.filter-label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sidebar input,
+.sidebar select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #c9d3dc;
+    border-radius: 4px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    background: #1f4e79;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.sidebar button:hover {
+    background: #163a5b;
+}
+
+.stats-box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #eef4fa;
+    border: 1px solid #d0dce8;
+    border-left: 5px solid #1f4e79;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.stats-box h2 {
+    margin-bottom: 10px;
+}
+
+.stats-box p {
+    background: white;
+    border: 1px solid #dce6ef;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+.stats-box hr {
+    border: none;
+    border-top: 1px solid #c9d3dc;
+    margin: 9px 0;
+}
+
+#discoveryCount {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.discovery-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-left: 5px solid #1f4e79;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.discovery-card:hover {
+    background: #f0f6fc;
+    transform: translateX(2px);
+}
+
+.discovery-card.active {
+    background: #dcecff;
+    border-left: 5px solid #0d6efd;
+    box-shadow: 0 0 8px rgba(13, 110, 253, 0.35);
+}
+
+.discovery-card.active h3 {
+    color: #0d6efd;
+}
+
+.discovery-card h3 {
+    margin-bottom: 5px;
+    color: #1f4e79;
+}
+
+.discovery-card p {
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+#map {
+    flex: 1;
+    height: 100%;
+}
+
+.custom-marker {
+    background: transparent;
+    border: none;
+}
+
+.marker-dot {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.45);
+}
+
+.info-panel {
+    width: 280px;
+    background: white;
+    padding: 15px;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.info-title {
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
+
+.explorer-card {
+    background: #eef4fa;
+    border: 1px solid #d0dce8;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.explorer-photo {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #dce6ef;
+    border: 1px solid #c9d3dc;
+    margin-bottom: 8px;
+}
+
+.explorer-placeholder {
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #dce6ef, #f7f7f7);
+    border: 1px solid #c9d3dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f4e79;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.explorer-name {
+    font-weight: bold;
+    color: #1f4e79;
+    margin-bottom: 5px;
+}
+
+.explorer-country {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.explorer-years {
+    font-size: 13px;
+    color: #555;
+}
+
+.info-badge {
+    display: inline-block;
+    background: #1f4e79;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.info-item {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #1f4e79;
+}
+
+.info-description {
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+.info-note {
+    margin-top: 15px;
+    padding: 10px;
+    background: #eef4fa;
+    border-left: 4px solid #1f4e79;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.empty-info {
+    color: #777;
+    line-height: 1.5;
+}
+
+.map-legend,
+.region-chart-box {
+    margin-top: 18px;
+    padding: 12px;
+    background: #eef4fa;
+    border: 1px solid #d0dce8;
+    border-radius: 6px;
+}
+
+.map-legend h3,
+.region-chart-box h3 {
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.legend-dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #555;
+}
+
+.europe {
+    background: #1976d2;
+}
+
+.asia {
+    background: #d32f2f;
+}
+
+.africa {
+    background: #388e3c;
+}
+
+.north-america {
+    background: #f57c00;
+}
+
+.south-america {
+    background: #7b1fa2;
+}
+
+.oceania {
+    background: #0097a7;
+}
+
+.arctic {
+    background: #303f9f;
+}
+
+.antarctica {
+    background: #757575;
+}
+
+.region-chart-row {
+    margin-bottom: 10px;
+}
+
+.region-chart-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.region-chart-header span {
+    color: #333;
+}
+
+.region-chart-header strong {
+    color: #1f4e79;
+}
+
+.region-chart-line {
+    width: 100%;
+    height: 9px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #d0dce8;
+}
+
+.region-chart-fill {
+    height: 100%;
+    background: #1f4e79;
+    border-radius: 10px;
+}
+
+.about-page {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.about-card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border-left: 6px solid #1f4e79;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.about-card h2 {
+    color: #1f4e79;
+    margin-bottom: 12px;
+}
+
+.about-card p {
+    line-height: 1.6;
+}
+
+.about-card ul {
+    padding-left: 22px;
+}
+
+.about-card li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.app-footer {
+    background: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.leaflet-control-attribution {
+    font-size: 11px;
+}
+
+.leaflet-control-attribution img,
+.leaflet-attribution-flag {
+    display: none !important;
+}
+
+/* ===== Доп. элементы шапки: озвучка + викторина ===== */
+.voice-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.quiz-launch {
+    color: #1f4e79;
+    background: #ffc107;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.quiz-launch:hover { background: #ffcd39; }
+
+/* ===== Маркеры-портреты ===== */
+.pin {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #1f4e79;
+    overflow: hidden;
+    background: #dce6ef;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+.pin img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+.pin-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    background: #eef4fa;
+}
+
+/* ===== Кораблик и точки маршрута ===== */
+.ship-marker {
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+}
+.wp-tip {
+    background: #1f4e79;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+.wp-tip::before { border-top-color: #1f4e79 !important; }
+
+/* ===== Кнопка плавания в инфопанели ===== */
+.voyage-btn {
+    width: 100%;
+    margin-top: 14px;
+    padding: 11px;
+    background: #ffc107;
+    color: #1f4e79;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.voyage-btn:hover { background: #ffcd39; }
+
+/* ===== Викторина ===== */
+.quiz-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    background: rgba(20, 35, 55, 0.72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.quiz-overlay.hidden { display: none; }
+.quiz-box {
+    position: relative;
+    width: 480px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+.quiz-close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #888;
+    cursor: pointer;
+}
+.quiz-progress {
+    color: #1f4e79;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.quiz-question { margin-bottom: 16px; }
+.quiz-q-title { font-size: 18px; font-weight: bold; color: #1f4e79; }
+.quiz-q-meta { color: #666; font-size: 13px; margin: 4px 0 10px; }
+.quiz-q-desc {
+    background: #f4f7fb;
+    border-left: 4px solid #1f4e79;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.quiz-q-ask { margin-top: 12px; font-weight: bold; }
+.quiz-options { display: flex; flex-direction: column; gap: 9px; }
+.quiz-opt {
+    text-align: left;
+    background: #f4f7fb;
+    border: 1px solid #d0dce8;
+    border-radius: 7px;
+    padding: 11px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.quiz-opt:hover:not(:disabled) { background: #e7eff8; border-color: #1f4e79; }
+.quiz-opt.correct { background: #e3f6e8; border-color: #2e9e4f; color: #1d6b35; }
+.quiz-opt.wrong { background: #fbe4e4; border-color: #d33; color: #a02020; }
+.quiz-feedback { min-height: 22px; margin-top: 12px; font-weight: bold; }
+.quiz-feedback.ok { color: #2e9e4f; }
+.quiz-feedback.no { color: #d33; }
+.quiz-next {
+    margin-top: 6px;
+    background: #1f4e79;
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.quiz-result { font-size: 16px; line-height: 1.6; text-align: center; }
+.quiz-result .score {
+    display: block;
+    font-size: 32px;
+    font-weight: 800;
+    color: #1f4e79;
+    margin: 8px 0;
+}

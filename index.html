@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Карта исторических географических открытий</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-header">
+    <h1>Карта исторических географических открытий</h1>
+    <p>Веб-приложение для визуализации экспедиций с помощью интерактивной карты и временной шкалы</p>
+
+    <nav class="header-nav">
+        <a href="index.html">Карта</a>
+        <a href="about.html">О проекте</a>
+        <label class="voice-toggle">
+            <input type="checkbox" id="voiceToggle" checked> 🔊 Озвучка
+        </label>
+        <button id="quizBtn" class="quiz-launch">🎮 Викторина</button>
+    </nav>
+</header>
+
+<main class="app-layout">
+
+    <aside class="sidebar">
+        <h2>Временная шкала</h2>
+
+        <input type="range" id="yearRange">
+        <div id="selectedYear">Год:</div>
+
+        <h2>Поиск и фильтры</h2>
+
+        <label for="searchInput" class="filter-label">Поиск</label>
+        <input type="text" id="searchInput" placeholder="Введите имя или открытие...">
+
+        <label for="explorerFilter" class="filter-label">Исследователь</label>
+        <select id="explorerFilter">
+            <option value="all">Все исследователи</option>
+        </select>
+
+        <label for="regionFilter" class="filter-label">Регион</label>
+        <select id="regionFilter">
+            <option value="all">Все регионы</option>
+        </select>
+
+        <label for="sortSelect" class="filter-label">Сортировка</label>
+        <select id="sortSelect">
+            <option value="yearAsc">По году ↑</option>
+            <option value="yearDesc">По году ↓</option>
+            <option value="titleAsc">По названию</option>
+            <option value="explorerAsc">По исследователю</option>
+        </select>
+
+        <button id="showAllButton">Сбросить фильтры</button>
+
+        <div class="stats-box">
+            <h2>Статистика</h2>
+
+            <p id="totalStats"></p>
+            <p id="explorerStats"></p>
+            <p id="periodStats"></p>
+
+            <hr>
+
+            <p id="topExplorerStats"></p>
+            <p id="firstDiscoveryStats"></p>
+            <p id="lastDiscoveryStats"></p>
+        </div>
+
+        <h2>Список открытий</h2>
+        <div id="discoveryCount"></div>
+        <div id="discoveryList"></div>
+    </aside>
+
+    <section id="map"></section>
+
+    <aside class="info-panel">
+        <h2>Информация об открытии</h2>
+
+        <div id="infoContent">
+            <p class="empty-info">
+                Выберите открытие из списка слева или нажмите на маркер на карте.
+            </p>
+        </div>
+
+        <div class="map-legend">
+            <h3>Легенда карты</h3>
+
+            <div class="legend-item">
+                <span class="legend-dot europe"></span>
+                Европа
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot asia"></span>
+                Азия
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot africa"></span>
+                Африка
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot north-america"></span>
+                Северная Америка
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot south-america"></span>
+                Южная Америка
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot oceania"></span>
+                Австралия и Океания
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot arctic"></span>
+                Арктика
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot antarctica"></span>
+                Антарктика
+            </div>
+        </div>
+
+        <div class="region-chart-box">
+            <h3>Открытия по регионам</h3>
+            <div id="regionChart"></div>
+        </div>
+    </aside>
+
+</main>
+
+<footer class="app-footer">
+    <p>Дипломный проект: визуализация исторических географических открытий</p>
+</footer>
+
+<!-- Викторина -->
+<div id="quiz" class="quiz-overlay hidden">
+    <div class="quiz-box">
+        <button class="quiz-close" id="quizClose" title="Закрыть">✕</button>
+        <div class="quiz-progress" id="quizProgress"></div>
+        <div class="quiz-question" id="quizQuestion"></div>
+        <div class="quiz-options" id="quizOptions"></div>
+        <div class="quiz-feedback" id="quizFeedback"></div>
+        <button class="quiz-next" id="quizNext" hidden>Дальше →</button>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="js/data.js"></script>
+<script src="js/explorers.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/map.js"></script>
+<script src="js/app.js"></script>
+<script src="js/features.js"></script>
+
+</body>
+</html>
