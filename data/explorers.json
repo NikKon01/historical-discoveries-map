@@ -1,0 +1,974 @@
+[
+  {
+    "id": "dezhnev-1648",
+    "explorer": "Семён Дежнёв",
+    "title": "Открытие пролива между Азией и Америкой",
+    "year": 1648,
+    "wiki": "Дежнёв, Семён Иванович",
+    "coordinates": [
+      66.08,
+      -169.65
+    ],
+    "place": "Мыс Дежнёва (Чукотка)",
+    "description": "Семён Ива́нович Дежнёв — русский путешественник, землепроходец, мореход, исследователь Северной и Восточной Сибири и Северной Америки, якутский атаман, торговец пушниной.",
+    "image": "https://upload.wikimedia.org/wikipedia/ru/9/98/%D0%A1%D0%B5%D0%BC%D1%91%D0%BD_%D0%94%D0%B5%D0%B6%D0%BD%D1%91%D0%B2.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/ru/9/98/%D0%A1%D0%B5%D0%BC%D1%91%D0%BD_%D0%94%D0%B5%D0%B6%D0%BD%D1%91%D0%B2.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%B6%D0%BD%D1%91%D0%B2%2C_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XVII",
+    "route": [
+      {
+        "n": "Устье Колымы (Нижнеколымск)",
+        "c": [
+          68.7,
+          161.3
+        ]
+      },
+      {
+        "n": "Чукотское море",
+        "c": [
+          69.5,
+          170
+        ]
+      },
+      {
+        "n": "Мыс Дежнёва",
+        "c": [
+          66.08,
+          -169.65
+        ]
+      }
+    ],
+    "audio": "data/audio/dezhnev-1648.mp3"
+  },
+  {
+    "id": "bering-1728",
+    "explorer": "Витус Беринг",
+    "title": "Первая Камчатская экспедиция",
+    "year": 1728,
+    "wiki": "Беринг, Витус Ионассен",
+    "coordinates": [
+      65.5,
+      -169
+    ],
+    "place": "Берингов пролив",
+    "description": "Ви́тус Ионассен Бе́ринг, также Ива́н Ива́нович Бе́ринг — русский мореплаватель датского происхождения, офицер российского флота, капитан-командор.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D0%92%D0%B8%D1%82%D1%83%D1%81%D0%98%D0%BE%D0%BD%D0%B0%D1%81%D1%81%D0%B5%D0%BD%D0%91%D0%B5%D1%80%D0%B8%D0%BD%D0%B3.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%D0%92%D0%B8%D1%82%D1%83%D1%81%D0%98%D0%BE%D0%BD%D0%B0%D1%81%D1%81%D0%B5%D0%BD%D0%91%D0%B5%D1%80%D0%B8%D0%BD%D0%B3.jpg/330px-%D0%92%D0%B8%D1%82%D1%83%D1%81%D0%98%D0%BE%D0%BD%D0%B0%D1%81%D1%81%D0%B5%D0%BD%D0%91%D0%B5%D1%80%D0%B8%D0%BD%D0%B3.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B8%D0%BD%D0%B3%2C_%D0%92%D0%B8%D1%82%D1%83%D1%81_%D0%98%D0%BE%D0%BD%D0%B0%D1%81%D1%81%D0%B5%D0%BD",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Дальний Восток",
+    "century": "XVIII",
+    "route": [
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Восточная Камчатка",
+        "c": [
+          56,
+          162
+        ]
+      },
+      {
+        "n": "Анадырский залив",
+        "c": [
+          60,
+          170
+        ]
+      },
+      {
+        "n": "Берингов пролив",
+        "c": [
+          65.5,
+          -169
+        ]
+      }
+    ],
+    "audio": "data/audio/bering-1728.mp3"
+  },
+  {
+    "id": "krasheninnikov-1737",
+    "explorer": "Степан Крашенинников",
+    "title": "Исследование Камчатки",
+    "year": 1737,
+    "wiki": "Крашенинников, Степан Петрович",
+    "coordinates": [
+      56,
+      159
+    ],
+    "place": "Полуостров Камчатка",
+    "description": "Степа́н Петро́вич Крашени́нников — русский ботаник, этнограф, географ, путешественник, исследователь Сибири и Камчатки, автор знаменитой книги «Описание земли Камчатки» (1755). Адъюнкт натуральной истории и ботаники (1745), профессор Императорской академии наук и художеств в Санкт-Петербурге (1750). Ректор Университета Академии наук и инспектор Академической гимназии (1750).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Stepan_Krasheninnikov.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Stepan_Krasheninnikov.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%BD%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%2C_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Дальний Восток",
+    "century": "XVIII",
+    "route": [
+      {
+        "n": "Охотск",
+        "c": [
+          59.36,
+          143.2
+        ]
+      },
+      {
+        "n": "Западная Камчатка",
+        "c": [
+          57,
+          156
+        ]
+      },
+      {
+        "n": "Долина реки Камчатка",
+        "c": [
+          56,
+          159
+        ]
+      }
+    ],
+    "audio": "data/audio/krasheninnikov-1737.mp3"
+  },
+  {
+    "id": "laptev-d-1739",
+    "explorer": "Дмитрий Лаптев",
+    "title": "Опись побережья от Лены до Колымы",
+    "year": 1739,
+    "wiki": "Лаптев, Дмитрий Яковлевич",
+    "coordinates": [
+      73,
+      140
+    ],
+    "place": "Море Лаптевых",
+    "description": "Дми́трий Я́ковлевич Ла́птев — русский полярный исследователь, путешественник, мореплаватель.",
+    "image": null,
+    "thumb": null,
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BF%D1%82%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XVIII",
+    "route": [
+      {
+        "n": "Устье Лены (Тикси)",
+        "c": [
+          71.6,
+          128.9
+        ]
+      },
+      {
+        "n": "Море Лаптевых",
+        "c": [
+          72.5,
+          135
+        ]
+      },
+      {
+        "n": "К устью Колымы",
+        "c": [
+          73,
+          140
+        ]
+      }
+    ],
+    "audio": "data/audio/laptev-d-1739.mp3"
+  },
+  {
+    "id": "laptev-h-1740",
+    "explorer": "Харитон Лаптев",
+    "title": "Опись берегов Таймыра",
+    "year": 1740,
+    "wiki": "Лаптев, Харитон Прокофьевич",
+    "coordinates": [
+      75.5,
+      99
+    ],
+    "place": "Полуостров Таймыр",
+    "description": "Харито́н Проко́фьевич Ла́птев — русский полярный исследователь, создатель карты Таймыра, капитан 1-го ранга. Первооткрыватель моря Лаптевых, названного в честь Харитона Прокофьевича и Дмитрия Яковлевича Лаптевых.",
+    "image": null,
+    "thumb": null,
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BF%D1%82%D0%B5%D0%B2%2C_%D0%A5%D0%B0%D1%80%D0%B8%D1%82%D0%BE%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D1%84%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XVIII",
+    "route": [
+      {
+        "n": "Хатангский залив",
+        "c": [
+          72,
+          105
+        ]
+      },
+      {
+        "n": "Берег Таймыра",
+        "c": [
+          74,
+          100
+        ]
+      },
+      {
+        "n": "Полуостров Таймыр",
+        "c": [
+          75.5,
+          99
+        ]
+      }
+    ],
+    "audio": "data/audio/laptev-h-1740.mp3"
+  },
+  {
+    "id": "chirikov-1741",
+    "explorer": "Алексей Чириков",
+    "title": "Открытие северо-западного побережья Америки",
+    "year": 1741,
+    "wiki": "Чириков, Алексей Ильич",
+    "coordinates": [
+      57,
+      -135.5
+    ],
+    "place": "Побережье Аляски",
+    "description": "Алексе́й Ильи́ч Чи́риков — русский дворянин, мореплаватель, капитан-командор (1747), исследователь северо-западного побережья Северной Америки, северной части Тихого океана и северо-восточного побережья Азии. Помощник Витуса Ионассена Беринга в 1-й и 2-й Камчатских экспедициях.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Photo_with_a_portrait_of_Alexei_Ilyich_Chirikov.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Photo_with_a_portrait_of_Alexei_Ilyich_Chirikov.jpg/330px-Photo_with_a_portrait_of_Alexei_Ilyich_Chirikov.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2%2C_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%98%D0%BB%D1%8C%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Дальний Восток",
+    "century": "XVIII",
+    "route": [
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Северная часть Тихого океана",
+        "c": [
+          54,
+          175
+        ]
+      },
+      {
+        "n": "Побережье Аляски",
+        "c": [
+          57,
+          -135.5
+        ]
+      }
+    ],
+    "audio": "data/audio/chirikov-1741.mp3"
+  },
+  {
+    "id": "chelyuskin-1742",
+    "explorer": "Семён Челюскин",
+    "title": "Достижение самой северной точки Евразии",
+    "year": 1742,
+    "wiki": "Челюскин, Семён Иванович",
+    "coordinates": [
+      77.72,
+      104.3
+    ],
+    "place": "Мыс Челюскин (Таймыр)",
+    "description": "Семён Ива́нович Челю́скин — российский полярный мореплаватель и офицер флота, капитан 3-го ранга (1756).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cheluskin_S_I.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cheluskin_S_I.JPG/330px-Cheluskin_S_I.JPG",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D1%8E%D1%81%D0%BA%D0%B8%D0%BD%2C_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XVIII",
+    "route": [
+      {
+        "n": "Низовья Хатанги",
+        "c": [
+          72,
+          105
+        ]
+      },
+      {
+        "n": "Западный Таймыр",
+        "c": [
+          76,
+          104
+        ]
+      },
+      {
+        "n": "Мыс Челюскин",
+        "c": [
+          77.72,
+          104.3
+        ]
+      }
+    ],
+    "audio": "data/audio/chelyuskin-1742.mp3"
+  },
+  {
+    "id": "kruzenshtern-1803",
+    "explorer": "Иван Крузенштерн",
+    "title": "Первое русское кругосветное плавание",
+    "year": 1803,
+    "wiki": "Крузенштерн, Иван Фёдорович",
+    "coordinates": [
+      -9,
+      -139.5
+    ],
+    "place": "Маркизские острова",
+    "description": "Ива́н Фёдорович Крузенште́рн, А́дам Ио́ганн фон Кру́зенштерн — русский мореплаватель, возглавлявший в 1803—1806 годах первое русское кругосветное плавание. Адмирал (1841), состоящий при особе Его Императорского величества (1842).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kruzenshtern_I_F.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Kruzenshtern_I_F.jpg/330px-Kruzenshtern_I_F.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B7%D0%B5%D0%BD%D1%88%D1%82%D0%B5%D1%80%D0%BD%2C_%D0%98%D0%B2%D0%B0%D0%BD_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Кругосветка",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Рио-де-Жанейро",
+        "c": [
+          -22.9,
+          -43.2
+        ]
+      },
+      {
+        "n": "Мыс Горн",
+        "c": [
+          -55.98,
+          -67.27
+        ]
+      },
+      {
+        "n": "Маркизские острова",
+        "c": [
+          -9,
+          -139.5
+        ]
+      },
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Нагасаки (Япония)",
+        "c": [
+          32.75,
+          129.87
+        ]
+      },
+      {
+        "n": "Мыс Доброй Надежды",
+        "c": [
+          -34.36,
+          18.47
+        ]
+      },
+      {
+        "n": "Возвращение в Кронштадт",
+        "c": [
+          59.99,
+          29.77
+        ]
+      }
+    ],
+    "audio": "data/audio/kruzenshtern-1803.mp3"
+  },
+  {
+    "id": "lisyansky-1804",
+    "explorer": "Юрий Лисянский",
+    "title": "Кругосветное плавание на «Неве»",
+    "year": 1804,
+    "wiki": "Лисянский, Юрий Фёдорович",
+    "coordinates": [
+      20,
+      -156
+    ],
+    "place": "Гавайские острова",
+    "description": "Ю́рий Фёдорович Лися́нский — русский мореплаватель, исследователь, писатель, военный моряк. Наиболее известен как командир шлюпа «Нева» во время первой русской кругосветной экспедиции. Капитан 1-го ранга (1809).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Yuriy_Lisyansky_portrait_by_Vladimir_Borovikovsky.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Yuriy_Lisyansky_portrait_by_Vladimir_Borovikovsky.jpg/330px-Yuriy_Lisyansky_portrait_by_Vladimir_Borovikovsky.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%81%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%AE%D1%80%D0%B8%D0%B9_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Кругосветка",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Рио-де-Жанейро",
+        "c": [
+          -22.9,
+          -43.2
+        ]
+      },
+      {
+        "n": "Мыс Горн",
+        "c": [
+          -55.98,
+          -67.27
+        ]
+      },
+      {
+        "n": "Гавайские острова",
+        "c": [
+          20,
+          -156
+        ]
+      },
+      {
+        "n": "Русская Америка (Ситка)",
+        "c": [
+          57,
+          -135
+        ]
+      },
+      {
+        "n": "Кантон (Гуанчжоу)",
+        "c": [
+          23.1,
+          113.3
+        ]
+      },
+      {
+        "n": "Мыс Доброй Надежды",
+        "c": [
+          -34.36,
+          18.47
+        ]
+      },
+      {
+        "n": "Возвращение в Кронштадт",
+        "c": [
+          59.99,
+          29.77
+        ]
+      }
+    ],
+    "audio": "data/audio/lisyansky-1804.mp3"
+  },
+  {
+    "id": "kotzebue-1816",
+    "explorer": "Отто Коцебу",
+    "title": "Экспедиция на «Рюрике»",
+    "year": 1816,
+    "wiki": "Коцебу, Отто Евстафьевич",
+    "coordinates": [
+      66.7,
+      -162
+    ],
+    "place": "Залив Коцебу (Аляска)",
+    "description": "О́тто Евста́фьевич Коцебу́ — русский мореплаватель происхождением из остзейских немцев.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Otto_von_Kotzebue_-_Forschungsreisender.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Otto_von_Kotzebue_-_Forschungsreisender.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%86%D0%B5%D0%B1%D1%83%2C_%D0%9E%D1%82%D1%82%D0%BE_%D0%95%D0%B2%D1%81%D1%82%D0%B0%D1%84%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Кругосветка",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Мыс Горн",
+        "c": [
+          -55.98,
+          -67.27
+        ]
+      },
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Залив Коцебу (Аляска)",
+        "c": [
+          66.7,
+          -162
+        ]
+      }
+    ],
+    "audio": "data/audio/kotzebue-1816.mp3"
+  },
+  {
+    "id": "golovnin-1817",
+    "explorer": "Василий Головнин",
+    "title": "Кругосветное плавание на «Камчатке»",
+    "year": 1817,
+    "wiki": "Головнин, Василий Михайлович",
+    "coordinates": [
+      44,
+      146
+    ],
+    "place": "Курильские острова",
+    "description": "Васи́лий Миха́йлович Головни́н — русский мореплаватель и мемуарист, вице-адмирал, руководитель двух кругосветных экспедиций. Отец статс-секретаря А. В. Головнина.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Golovnin_VM.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Golovnin_VM.jpg/330px-Golovnin_VM.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BD%2C_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Кругосветка",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Мыс Доброй Надежды",
+        "c": [
+          -34.36,
+          18.47
+        ]
+      },
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Курильские острова",
+        "c": [
+          44,
+          146
+        ]
+      }
+    ],
+    "audio": "data/audio/golovnin-1817.mp3"
+  },
+  {
+    "id": "bellingshausen-1820",
+    "explorer": "Фаддей Беллинсгаузен",
+    "title": "Открытие Антарктиды",
+    "year": 1820,
+    "wiki": "Беллинсгаузен, Фаддей Фаддеевич",
+    "coordinates": [
+      -69.35,
+      1
+    ],
+    "place": "Берег Антарктиды",
+    "description": "Фадде́й Фадде́евич Беллинсга́узен, имя при рождении Фабиан Готтлиб Беньямин фон Беллинсгаузен — русский мореплаватель, адмирал (1843), один из первооткрывателей Антарктиды. Действительный член Русского географического общества с 19 сентября (1 октября) 1845 года.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Faddey_Faddeevich_Bellingshausen.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faddey_Faddeevich_Bellingshausen.jpg/330px-Faddey_Faddeevich_Bellingshausen.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%BB%D0%B8%D0%BD%D1%81%D0%B3%D0%B0%D1%83%D0%B7%D0%B5%D0%BD%2C_%D0%A4%D0%B0%D0%B4%D0%B4%D0%B5%D0%B9_%D0%A4%D0%B0%D0%B4%D0%B4%D0%B5%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Антарктида",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Рио-де-Жанейро",
+        "c": [
+          -22.9,
+          -43.2
+        ]
+      },
+      {
+        "n": "Южная Георгия",
+        "c": [
+          -54.3,
+          -36.8
+        ]
+      },
+      {
+        "n": "Берег Антарктиды (шлюп «Восток»)",
+        "c": [
+          -69.35,
+          1
+        ]
+      }
+    ],
+    "audio": "data/audio/bellingshausen-1820.mp3"
+  },
+  {
+    "id": "lazarev-1820",
+    "explorer": "Михаил Лазарев",
+    "title": "Открытие Антарктиды (шлюп «Мирный»)",
+    "year": 1820,
+    "wiki": "Лазарев, Михаил Петрович",
+    "coordinates": [
+      -69.35,
+      2.5
+    ],
+    "place": "Берег Антарктиды",
+    "description": "Михаи́л Петро́вич Ла́зарев — русский флотоводец и мореплаватель, адмирал (1843), кавалер орденов Святого апостола Андрея Первозванного (1850) и Святого Георгия IV класса за выслугу лет (1817), командующий Черноморским флотом и один из первооткрывателей Антарктиды. Один из основателей Новороссийска (1838).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lazarev_MP_by_Schwede_rectangle.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Lazarev_MP_by_Schwede_rectangle.jpg/330px-Lazarev_MP_by_Schwede_rectangle.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B7%D0%B0%D1%80%D0%B5%D0%B2%2C_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Антарктида",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Рио-де-Жанейро",
+        "c": [
+          -22.9,
+          -43.2
+        ]
+      },
+      {
+        "n": "Южная Георгия",
+        "c": [
+          -54.3,
+          -36.8
+        ]
+      },
+      {
+        "n": "Берег Антарктиды (шлюп «Мирный»)",
+        "c": [
+          -69.35,
+          2.5
+        ]
+      }
+    ],
+    "audio": "data/audio/lazarev-1820.mp3"
+  },
+  {
+    "id": "wrangel-1821",
+    "explorer": "Фердинанд Врангель",
+    "title": "Экспедиция по описи берегов Сибири",
+    "year": 1821,
+    "wiki": "Врангель, Фердинанд Петрович",
+    "coordinates": [
+      71.23,
+      -179.4
+    ],
+    "place": "Остров Врангеля",
+    "description": "Барон Фердина́нд Петро́вич Вра́нгель — российский военный и государственный деятель, мореплаватель и полярный исследователь, генерал-адъютант (15.04.1856), адмирал (26.08.1856), управляющий Морским министерством.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Vrangel_FP.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vrangel_FP.jpg/330px-Vrangel_FP.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%92%D1%80%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%2C_%D0%A4%D0%B5%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D0%BD%D0%B4_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Нижнеколымск",
+        "c": [
+          68.7,
+          161.3
+        ]
+      },
+      {
+        "n": "Восточно-Сибирское море",
+        "c": [
+          70,
+          -179
+        ]
+      },
+      {
+        "n": "Остров Врангеля",
+        "c": [
+          71.23,
+          -179.4
+        ]
+      }
+    ],
+    "audio": "data/audio/wrangel-1821.mp3"
+  },
+  {
+    "id": "litke-1826",
+    "explorer": "Фёдор Литке",
+    "title": "Кругосветная экспедиция на «Сенявине»",
+    "year": 1826,
+    "wiki": "Литке, Фёдор Петрович",
+    "coordinates": [
+      7.4,
+      151.8
+    ],
+    "place": "Каролинские острова",
+    "description": "Граф Фёдор Петро́вич Ли́тке — российский мореплаватель и географ, исследователь Арктики, основатель Русского географического общества, генерал-адъютант (1842), адмирал (1855), президент Академии наук (1864—1882).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ivan_Nikolayevich_Kramskoi_-_Portrait_of_Fyodor_Petrovich_Litke.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ivan_Nikolayevich_Kramskoi_-_Portrait_of_Fyodor_Petrovich_Litke.jpg/330px-Ivan_Nikolayevich_Kramskoi_-_Portrait_of_Fyodor_Petrovich_Litke.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%BA%D0%B5%2C_%D0%A4%D1%91%D0%B4%D0%BE%D1%80_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Кругосветка",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Кронштадт (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Мыс Горн",
+        "c": [
+          -55.98,
+          -67.27
+        ]
+      },
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Каролинские острова",
+        "c": [
+          7.4,
+          151.8
+        ]
+      }
+    ],
+    "audio": "data/audio/litke-1826.mp3"
+  },
+  {
+    "id": "nevelskoy-1849",
+    "explorer": "Геннадий Невельской",
+    "title": "Амурская экспедиция",
+    "year": 1849,
+    "wiki": "Невельской, Геннадий Иванович",
+    "coordinates": [
+      53,
+      141.5
+    ],
+    "place": "Устье Амура и Сахалин",
+    "description": "Генна́дий Ива́нович Невельско́й — военно-морской деятель Российской империи, адмирал (1874), исследователь Дальнего Востока, основатель города Николаевска-на-Амуре. Доказал, что устье Амура доступно для входа морских судов и что Сахалин — остров.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%28%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%28%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%29.jpg/330px-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%28%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%29.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B2%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9%2C_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Дальний Восток",
+    "century": "XIX",
+    "route": [
+      {
+        "n": "Петропавловск-Камчатский",
+        "c": [
+          53,
+          158.65
+        ]
+      },
+      {
+        "n": "Охотское море",
+        "c": [
+          54,
+          150
+        ]
+      },
+      {
+        "n": "Устье Амура и Сахалин",
+        "c": [
+          53,
+          141.5
+        ]
+      }
+    ],
+    "audio": "data/audio/nevelskoy-1849.mp3"
+  },
+  {
+    "id": "toll-1900",
+    "explorer": "Эдуард Толль",
+    "title": "Русская полярная экспедиция",
+    "year": 1900,
+    "wiki": "Толль, Эдуард Васильевич",
+    "coordinates": [
+      75,
+      142
+    ],
+    "place": "Новосибирские острова",
+    "description": "Барон Эдуа́рд Васи́льевич Толль — русский учёный-геолог и географ, арктический исследователь и организатор экспедиций.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg/330px-%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C%2C_%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XX",
+    "route": [
+      {
+        "n": "Санкт-Петербург (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Карское море",
+        "c": [
+          73,
+          80
+        ]
+      },
+      {
+        "n": "Новосибирские острова",
+        "c": [
+          75,
+          142
+        ]
+      }
+    ],
+    "audio": "data/audio/toll-1900.mp3"
+  },
+  {
+    "id": "kolchak-1900",
+    "explorer": "Александр Колчак",
+    "title": "Полярные исследования Таймыра",
+    "year": 1900,
+    "wiki": "Колчак, Александр Васильевич",
+    "coordinates": [
+      76,
+      96
+    ],
+    "place": "Таймыр и Карское море",
+    "description": "Алекса́ндр Васи́льевич Колча́к — русский государственный, политический и военный деятель, учёный-океанограф, полярный исследователь (1900—1903), флотоводец (1915—1917), вошедший в историю как руководитель Белого движения во время Гражданской войны в России. Верховный правитель России и Верховный главнокомандующий Русской армией.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Kolchak.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kolchak.jpg/330px-Kolchak.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D1%87%D0%B0%D0%BA%2C_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XX",
+    "route": [
+      {
+        "n": "Санкт-Петербург (отправление)",
+        "c": [
+          59.99,
+          29.77
+        ]
+      },
+      {
+        "n": "Карское море",
+        "c": [
+          73,
+          80
+        ]
+      },
+      {
+        "n": "Берег Таймыра",
+        "c": [
+          76,
+          96
+        ]
+      }
+    ],
+    "audio": "data/audio/kolchak-1900.mp3"
+  },
+  {
+    "id": "rusanov-1912",
+    "explorer": "Владимир Русанов",
+    "title": "Экспедиция на Шпицберген",
+    "year": 1912,
+    "wiki": "Русанов, Владимир Александрович",
+    "coordinates": [
+      78.2,
+      15.6
+    ],
+    "place": "Архипелаг Шпицберген",
+    "description": "Влади́мир Алекса́ндрович Руса́нов — русский арктический исследователь.",
+    "image": "https://upload.wikimedia.org/wikipedia/ru/0/0e/Rusanov_vladimir.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/ru/0/0e/Rusanov_vladimir.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D0%B0%D0%BD%D0%BE%D0%B2%2C_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XX",
+    "route": [
+      {
+        "n": "Александровск-на-Мурмане",
+        "c": [
+          69.2,
+          33.4
+        ]
+      },
+      {
+        "n": "Баренцево море",
+        "c": [
+          74,
+          25
+        ]
+      },
+      {
+        "n": "Архипелаг Шпицберген",
+        "c": [
+          78.2,
+          15.6
+        ]
+      }
+    ],
+    "audio": "data/audio/rusanov-1912.mp3"
+  },
+  {
+    "id": "sedov-1912",
+    "explorer": "Георгий Седов",
+    "title": "Экспедиция к Северному полюсу",
+    "year": 1912,
+    "wiki": "Седов, Георгий Яковлевич",
+    "coordinates": [
+      80,
+      58
+    ],
+    "place": "Земля Франца-Иосифа",
+    "description": "Гео́ргий Я́ковлевич Седо́в — русский гидрограф, полярный исследователь, старший лейтенант военно-морского флота (1911). Организатор неудачной экспедиции к Северному полюсу, во время которой умер, не достигнув заявленной цели, пройдя примерно 200 километров.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Sedow_georgy.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sedow_georgy.jpg/330px-Sedow_georgy.jpg",
+    "wikiUrl": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B4%D0%BE%D0%B2%2C_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9_%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D0%B5%D0%B2%D0%B8%D1%87",
+    "source": "Wikipedia (ru) / Wikimedia Commons, CC BY-SA",
+    "type": "Арктика",
+    "century": "XX",
+    "route": [
+      {
+        "n": "Архангельск (отправление)",
+        "c": [
+          64.54,
+          40.54
+        ]
+      },
+      {
+        "n": "Новая Земля",
+        "c": [
+          76,
+          60
+        ]
+      },
+      {
+        "n": "Земля Франца-Иосифа",
+        "c": [
+          80,
+          58
+        ]
+      }
+    ],
+    "audio": "data/audio/sedov-1912.mp3"
+  }
+]

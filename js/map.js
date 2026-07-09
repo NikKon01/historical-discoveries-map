@@ -13,6 +13,14 @@ L.tileLayer(
     }
 ).addTo(map);
 
+// пересчёт размера карты при повороте/ресайзе (иначе на мобильных серые поля)
+let resizeTimer = null;
+window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => map.invalidateSize(), 200);
+});
+window.addEventListener("orientationchange", () => setTimeout(() => map.invalidateSize(), 300));
+
 let markers = [];
 let activeRoute = null;
 
