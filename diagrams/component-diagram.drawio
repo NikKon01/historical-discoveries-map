@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="claude-code" version="24.7.0" type="device">
+  <diagram name="Диаграмма компонентов" id="component1">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connectable="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Граница: статическое веб-приложение (GitHub Pages) -->
+        <mxCell id="boundary" value="Статическое веб-приложение (GitHub Pages)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;fontStyle=1;fontSize=13;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="880" height="470" as="geometry" />
+        </mxCell>
+
+        <!-- Слой 1: страницы -->
+        <mxCell id="c_index" value="index.html&#10;(главная страница)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_about" value="about.html&#10;(страница «О проекте»)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_style" value="style.css&#10;(стили интерфейса)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Слой 2: логика приложения -->
+        <mxCell id="c_app" value="js/app.js&#10;(фильтры, поиск, статистика, инфопанель)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_map" value="js/map.js&#10;(карта, маршруты, анимация корабля)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_features" value="js/features.js&#10;(викторина, переключатель озвучки)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tg" value="js/timeline-game.js&#10;(игра «Лента времени»)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Слой 3: данные -->
+        <mxCell id="c_data" value="js/data.js&#10;(данные об открытиях)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_explorers" value="js/explorers.js&#10;(данные исследователей)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_audiojs" value="js/audio.js&#10;(карта озвучки: открытие → mp3)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Слой 4: статические ресурсы -->
+        <mxCell id="c_images" value="images/explorers/&#10;(портреты, JPG/PNG)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_audiofiles" value="audio/&#10;(озвучка, MP3)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Внешние системы -->
+        <mxCell id="c_leaflet" value="Leaflet.js&#10;(внешняя библиотека карты, CDN)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_osm" value="OpenStreetMap&#10;(внешний сервис тайлов карты)" style="shape=component;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="190" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== Зависимости ===================== -->
+        <mxCell id="e1" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_style"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_about" target="c_style"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e3" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_app"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_map"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_features"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_tg"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_data"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_explorers"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_audiojs"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e10" value="«use»" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_index" target="c_leaflet"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e11" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_app" target="c_map"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e12" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_app" target="c_data"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e13" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_app" target="c_explorers"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e14" value="«use»" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_map" target="c_leaflet"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e15" value="«use»" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_map" target="c_osm"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e16" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_map" target="c_explorers"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e17" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_map" target="c_audiojs"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e18" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_map" target="c_images"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e19" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_map" target="c_audiofiles"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e20" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_features" target="c_data"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e21" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_features" target="c_map"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e22" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_tg" target="c_data"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e23" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_tg" target="c_explorers"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e24" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_tg" target="c_features"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e25" style="html=1;endArrow=open;dashed=1;fontSize=11;" edge="1" parent="1" source="c_tg" target="c_map"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

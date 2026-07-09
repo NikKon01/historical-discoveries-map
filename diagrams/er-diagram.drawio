@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="claude-code" version="24.7.0" type="device">
+  <diagram name="ER-диаграмма БД" id="erdiagram1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connectable="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== ТАБЛИЦА explorers ===================== -->
+        <mxCell id="tbl_explorers" value="explorers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r1" value="PK   id : INTEGER" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r2" value="      name : TEXT (UNIQUE)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="94" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r3" value="      country : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="118" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r4" value="      flag : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="142" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r5" value="      years : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="166" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r6" value="      image : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_r7" value="      source : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="214" width="260" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== ТАБЛИЦА discoveries ===================== -->
+        <mxCell id="tbl_discoveries" value="discoveries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r1" value="PK   id : TEXT  («год|название»)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r2" value="      year : INTEGER" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="94" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r3" value="      title : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="118" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r4" value="FK   explorer_id : INTEGER" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="142" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r5" value="      location : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="166" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r6" value="      lat : REAL" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r7" value="      lng : REAL" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="214" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r8" value="      description : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="238" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r9" value="      source : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="262" width="280" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== ТАБЛИЦА waypoints ===================== -->
+        <mxCell id="tbl_waypoints" value="waypoints" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_r1" value="PK   id : INTEGER (AUTOINCREMENT)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="w_r2" value="FK   discovery_id : TEXT" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="474" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="w_r3" value="      seq : INTEGER  (номер точки)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="498" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="w_r4" value="      lat : REAL" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="522" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="w_r5" value="      lng : REAL" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="546" width="260" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== СВЯЗИ (1 - N, crow's foot) ===================== -->
+        <mxCell id="rel1" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;startArrow=ERone;endArrow=ERmany;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.3;fontSize=12;" edge="1" parent="1" source="tbl_explorers" target="tbl_discoveries">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1lbl" value="один исследователь — много открытий" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=2;" vertex="1" connectable="0" parent="rel1">
+          <mxGeometry x="0" y="-1" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel2" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;startArrow=ERone;endArrow=ERmany;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;" edge="1" parent="1" source="tbl_discoveries" target="tbl_waypoints">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2lbl" value="одно открытие — много точек маршрута" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=2;" vertex="1" connectable="0" parent="rel2">
+          <mxGeometry x="0" y="-1" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry>
+        </mxCell>
+
+        <!-- ===================== Примечание ===================== -->
+        <mxCell id="note1" value="Связи объявлены как FOREIGN KEY:&#10;discoveries.explorer_id → explorers.id&#10;waypoints.discovery_id → discoveries.id&#10;(PRAGMA foreign_keys = ON, целостность проверена: 0 нарушений)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="300" height="90" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
