@@ -20,6 +20,7 @@
             <input type="checkbox" id="voiceToggle" checked> 🔊 Озвучка
         </label>
         <button id="quizBtn" class="quiz-launch">🎮 Викторина</button>
+        <button id="tgBtn" class="tg-launch">🃏 Лента времени</button>
     </nav>
 </header>
 
@@ -154,13 +155,44 @@
     </div>
 </div>
 
+<!-- Мини-игра «Лента времени» -->
+<div id="tgModal" class="tg-overlay hidden">
+    <div class="tg-head">
+        <button class="tg-close" id="tgClose">← Выход</button>
+        <div class="tg-titlebar">🃏 ЛЕНТА ВРЕМЕНИ — расставьте открытия по хронологии</div>
+        <div class="tg-stat" id="tgStat"></div>
+    </div>
+    <div class="tg-current" id="tgCurrent"></div>
+    <div class="tg-hint">Нажмите на промежуток «＋», куда поставить карточку: раньше или позже уже выложенных.</div>
+    <div class="tg-timeline" id="tgTimeline"></div>
+</div>
+
+<!-- SQL-консоль (sql.js в браузере) -->
+<div id="sqlModal" class="sql-overlay hidden">
+    <div class="sql-box">
+        <button class="sql-close" id="sqlClose" title="Закрыть">✕</button>
+        <h2>🗄️ SQL-запросы к базе (прямо в браузере)</h2>
+        <p class="sql-hint">База SQLite загружается через WebAssembly. Выберите готовый запрос или напишите свой. Ctrl+Enter — выполнить.</p>
+        <div class="sql-presets" id="sqlPresets"></div>
+        <textarea id="sqlInput" spellcheck="false"></textarea>
+        <div class="sql-actions">
+            <button id="sqlRun">▶ Выполнить</button>
+            <span id="sqlStatus"></span>
+        </div>
+        <div class="sql-result" id="sqlResult"></div>
+    </div>
+</div>
+
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
 <script src="js/data.js"></script>
 <script src="js/explorers.js"></script>
 <script src="js/audio.js"></script>
 <script src="js/map.js"></script>
 <script src="js/app.js"></script>
 <script src="js/features.js"></script>
+<script src="js/timeline-game.js"></script>
+<script src="js/db.js"></script>
 
 </body>
 </html>
